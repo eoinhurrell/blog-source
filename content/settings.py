@@ -3,7 +3,7 @@
 
 AUTHOR = u'Eoin Hurrell'
 SITENAME = u'Eoin Hurrell'
-SITEURL = ''
+SITEURL = 'www.eoinhurrell.com'
 
 TIMEZONE = 'Europe/Dublin'
 DEFAULT_LANG = u'en'
@@ -13,7 +13,7 @@ DISQUS_SITENAME = "eoinhurrellsblog"
 EMAIL = "eoin.hurrell@gmail.com"
 
 # Additional
-# GOOGLE_ANALYTICS = "UA-34295039-1"
+GOOGLE_ANALYTICS = "UA-47972589-1"
 # DOMAIN = "eoinhurrell.com"
 
 # Twitter Cards
@@ -47,7 +47,7 @@ ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 #DEFAULT_METADATA = (('yeah', 'it is'),)
 
 # static paths will be copied under the same name
-STATIC_PATHS = ['images']  # , 'CNAME']
+STATIC_PATHS = ['images', 'CNAME']
 
 # A list of files to copy from the source to the destination
 #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
@@ -63,6 +63,6 @@ NOTEBOOK_DIR = 'notebooks'
 EXTRA_HEADER = open('../_nb_header.html').read().decode('utf-8')
 
 EXTRA_PATH_METADATA = {
-    #'/CNAME': {'path': '/CNAME'},
+    '/CNAME': {'path': '/CNAME'},
     #'extra/robots.txt': {'path': 'robots.txt'},
     }
