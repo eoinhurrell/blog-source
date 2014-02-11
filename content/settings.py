@@ -3,7 +3,7 @@
 
 AUTHOR = u'Eoin Hurrell'
 SITENAME = u'Eoin Hurrell'
-SITEURL = 'www.eoinhurrell.com'
+SITEURL = 'http://www.eoinhurrell.com'
 
 TIMEZONE = 'Europe/Dublin'
 DEFAULT_LANG = u'en'
